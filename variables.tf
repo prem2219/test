@@ -1,6 +1,16 @@
 variable "aws_region" {
   description = "The AWS region to create things in."
   default     = "us-east-1"
+  
+}
+variable "my_access_key" {
+  description = "The AWS credentials access key."
+  default     = "AKIAXHPD2DQNAWA5PHUQ"
+}
+
+variable "my_secret_key" {
+  description = "The AWS credentials secret key."
+  default     = "RK7r2TeyhC5sBDqRZBWD7bfjhGkI4zx1fgDV39yY"
 }
 
 variable "key_name" {
