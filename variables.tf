@@ -16,7 +16,7 @@ variable "my_secret_key" {
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     =  "terraform-key"
+  default     =  "terraform_iac"
 }
 
 variable "instance_type" {
