@@ -13,9 +13,10 @@ variable "my_secret_key" {
   default     = "RK7r2TeyhC5sBDqRZBWD7bfjhGkI4zx1fgDV39yY"
 }
 
+
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     =  "terraform_iac"
+  default     =  "myJune2021Key"
 }
 
 variable "instance_type" {
@@ -34,6 +35,6 @@ variable "tag_name" {
 }
 
 variable "ami_id" {
-  description = "AMI for Amazon Linux Ec2 instance"
+  description = "AMI for Amazon linux Ec2 instance"
   default     = "ami-0ed9277fb7eb570c9"
 }
