@@ -5,12 +5,12 @@ variable "aws_region" {
 }
 variable "my_access_key" {
   description = "The AWS credentials access key."
-  default     = "AKIAXHPD2DQNAWA5PHUQ"
+  default     = ""
 }
 
 variable "my_secret_key" {
   description = "The AWS credentials secret key."
-  default     = "RK7r2TeyhC5sBDqRZBWD7bfjhGkI4zx1fgDV39yY"
+  default     = ""
 }
 
 
