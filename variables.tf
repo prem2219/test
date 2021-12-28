@@ -3,16 +3,6 @@ variable "aws_region" {
   default     = "us-east-1"
   
 }
-variable "my_access_key" {
-  description = "The AWS credentials access key."
-  default     = ""
-}
-
-variable "my_secret_key" {
-  description = "The AWS credentials secret key."
-  default     = ""
-}
-
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
