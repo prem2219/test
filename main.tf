@@ -1,7 +1,7 @@
 provider "aws" {
   region = var.aws_region
-  access_key = var.my_access_key
-  secret_key = var.my_secret_key
+  ##access_key = var.my_access_key
+  ##secret_key = var.my_secret_key
 }
 #Create security group with firewall rules
 resource "aws_security_group" "my_security_group" {
